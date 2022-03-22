@@ -19,16 +19,16 @@ function (user){
 
 Inputs and outputs should be valid JavaScript values!
 
-| Input | Output |
-| ----- | ------ |
-|       |        | 
+|                  Input                          |         Output            |
+| Andrew = {username: "aconkli9", isActive: true} | 'Welcome back, aconkli9!' |
+| Raja = {username: "OrangeCat1", isActive: flase}|  'Hey OrangeCat1! Would you like to renew your subscription? | 
 |       |        | 
 |       |        | 
 
 <table>
   <tr>
     <th>What does this program do?</th>
-    <td></td>
+    <td>This program takes an object as an input and checks the object to find the username and whether or not the user is active. Depending on the properties of the object, the program returns one of two messages. If the user is active, the program returns a welcome back message. If the user is inactive, the program returns a message asking the user to renew their subscription. </td>
   </tr>
 </table>
 
